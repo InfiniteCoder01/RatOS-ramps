@@ -1,3 +1,5 @@
+# RatOS config for RAMPS
+
 ## Installation
 ssh into your raspberry pi (or whatever you are using to run RatOS). Default user is `pi`, default password is `raspberry` (I would suggest changing that).
 Then, go to RatOS boards configs directory: `cd ~/printer_data/config/RatOS/boards/`
