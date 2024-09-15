@@ -1,0 +1,10 @@
+{
+	"$schema": "../board-definition.schema.json",
+	"name": "RAMPS",
+	"manufacturer": "ReRap",
+	"serialPath": "/dev/ramps",
+	"firmwareBinaryName": "firmware-ramps.bin",
+	"compileScript": "compile.sh",
+	"flashScript": "flash.sh",
+	"documentationLink": "https://reprap.org/wiki/RAMPS_1.4"
+}

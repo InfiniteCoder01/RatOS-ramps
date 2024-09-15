@@ -1,0 +1,7 @@
+# RAMPS
+## pass device name to bash script or edit make-and-flash-mcu.sh to look for the device name? The latter might be easier if you want to trigger via fluidd
+SUBSYSTEM=="tty", ATTRS{idVendor}=="2341",  ATTRS{idProduct}=="0042", ACTION=="add|change", SYMLINK+="ramps", RUN+="/home/pi/printer_data/config/RatOS/scripts/klipper-mcu-added.sh"
+
+## need to handle remove for different device names
+ACTION=="remove", ENV{DEVLINKS}=="/dev/ramps"
+
